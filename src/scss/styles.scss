@@ -260,8 +260,10 @@ textarea {
     display: block;
     font-size: 64px;
     font-weight: 200;
-    color: $primary;
     margin-bottom: 40px;
+    background: linear-gradient(333deg, #1a93ea -3.53%, #51b7ff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
   &__item-text {
     display: grid;
@@ -343,7 +345,7 @@ textarea {
       filter: grayscale(0);
     }
     &:hover .cases__icon {
-      transform: translate(10%, -10%) scale(1.3);
+      transform: translate(10%, -10%) scale(1.2);
       opacity: 0.5;
     }
   }
